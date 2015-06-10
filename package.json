@@ -35,5 +35,14 @@
     "extend": "^2.0.0",
     "foreach": "^2.0.5",
     "is-js": "^0.1.1"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
   }
 }
