@@ -25,7 +25,7 @@ function decorateDirective(t, name, restrict, scope, controllerAs) {
 		(0, _annotate2['default'])(t, '$component', { bindToController: true });
 
 		if (scope === 'createChildScope') {
-			(0, _annotate2['default'])(t.$component, 'scope', scope);
+			(0, _annotate2['default'])(t.$component, 'scope', true);
 		} else {
 			(0, _annotate2['default'])(t.$component, 'scope', scope);
 		}

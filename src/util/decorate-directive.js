@@ -13,7 +13,7 @@ export function decorateDirective(t, name, restrict, scope, controllerAs){
 		annotate(t, '$component', { bindToController : true });
 
 		if(scope === 'createChildScope') {
-			annotate(t.$component, 'scope', scope);
+			annotate(t.$component, 'scope', true);
 		} else {
 			annotate(t.$component, 'scope', scope);
 		}
